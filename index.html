@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+<style>
+   /* 导航条初始化 */
+   *{
+        /* 内外边距为0 */
+        margin: 0 ;
+        padding: 0;
+        /* 去除无必要样式 */
+        list-style: none;
+        text-decoration: none ;
+    }
+   /* 渐变导航条 */
+    .导航{
+        height: 40px;
+        background: linear-gradient(rgb(0, 191, 255),rgb(0, 81, 255));
+    }
+    .DHL li{
+        /* 左浮动 */
+        float: left;
+        height: 40px;
+        width: 100px;
+        /* 使文本水平垂直居中 */
+        line-height: 40px;
+        text-align: center;
+    }
+    .DHL a{
+       /* 超链接变黑 */
+        color: #000;
+        /* 变盒 */
+        display: block;
+    }
+    .DHL{
+        /* 列表宽 居中 */
+        width: 800px;
+        margin: auto;
+    }
+    .DHL a:hover{
+        /* 悬停变色 */
+        background: rgb(122, 183, 226);
+    }
+</style>
 </head>
 <body>
-    
+   
+    <div class="导航">
+     <ul class="DHL">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">project1</a></li>
+        <li><a href="#">progect2</a></li>
+     </ul>
+    </div>
 </body>
 </html>
