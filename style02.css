@@ -22,8 +22,8 @@
         text-align: center;
     }
     .DHL a{
-       /* 超链接变黑 Hyperlinks turn black */
-        color: #000;
+       /* 超链接变色 Hyperlink color change*/
+        color: #c6e293;
         /* 变盒 become to box */
         display: block;
     }
@@ -31,6 +31,7 @@
         /* 列表宽 居中 List width centered */
         width: 800px;
         margin: auto;
+        font-family: RacingSansOne-Regular;
     }
     .DHL a:hover{
         /* 悬停变色 Hover color change */
