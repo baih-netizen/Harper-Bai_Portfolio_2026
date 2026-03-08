@@ -94,8 +94,12 @@ width: 100%;
         line-height: 220px;
         background-color: rgb(115, 181, 181);
         color: white;
+        font-family: RacingSansOne-Regular;
     }
     @font-face {
         font-family: RacingSansOne-Regular;
         src: url(RacingSansOne-Regular拷貝.ttf);
+    }
+    .TP a{
+        color: white
     }
