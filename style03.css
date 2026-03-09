@@ -31,8 +31,27 @@
         /* 列表宽 居中 List width centered */
         width: 800px;
         margin: auto;
+        font-family: RacingSansOne-Regular;
     }
     .DHL a:hover{
         /* 悬停变色 Hover color change */
         background: rgb(122, 183, 226);
     }
+    .BJ{
+        background-image: url(/02.png);
+        background-position: 0 0;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 1000px;
+        width: 100%;}
+    .word{
+        position:relative;
+        top: 480px;
+        font-size: 55px;
+        color: white;
+        /* 文字居中 Centered text */
+        text-align: center;
+        font-weight: bolder;
+        font-family: RacingSansOne-Regular;
+    }
+   
